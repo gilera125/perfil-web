@@ -47,7 +47,7 @@ button:hover{
 }
 
 header{
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(230, 230, 230);
 }
 
 header .logo{
@@ -76,6 +76,10 @@ header a{
     text-decoration: none;
     font-weight: bold;
     color: black;
+}
+
+img{
+    height: 90px;
 }
 
 header a:hover{
@@ -153,7 +157,7 @@ header a:hover{
         rgba(0,0,0,0.5)
         
     )
-    ,url("media/hero.jpg");
+    ,url("media/frontend.jpg");
 }
 
 .carta:nth-child(2){
@@ -163,7 +167,7 @@ header a:hover{
         rgba(0,0,0,0.5)
         
     )
-    ,url("media/hero2.jpg");
+    ,url("media/bases.jpg");
 }
 
 .carta:nth-child(3){
@@ -173,7 +177,7 @@ header a:hover{
         rgba(0,0,0,0.5)
         
     )
-    ,url("media/hero3.jpg");
+    ,url("media/infraestructura.jpg");
 }
 
 #caracteristicas .container{
@@ -190,20 +194,91 @@ header a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     text-align: center;
+    align-items: center;
     background-color: rgb(30, 30, 30);
     color: white;
-    height: 80vh;
+    height: 90vh;
 
 }
 
-#redes-sociales button{
-    font-size: 5vw;
+.container1 ul li .fa{
+    color: #d8e2dc;
+    margin-top: 10px;
+    transition: all 0.5s ease;
+}
+
+.container1 ul li:hover.facebook {
+    border: blue;
+    box-shadow: 0 0 20px blue;
+    transition: all 0.5s ease;
+}
+
+.container1 ul li:hover.fa-facebook {
+    color: blue;
+    text-shadow: 0 0 20px blue;
+    transition: all 0.5s ease;
+}
+
+.container1 ul li:hover.linkedin {
+    border: #bc2a8d;
+    box-shadow: 0 0 20px #bc2a8d;
+    transition: all 0.5s ease;
+}
+
+.container1 ul li:hover.fa-linkedin {
+    border: #bc2a8d;
+    box-shadow: 0 0 20px #bc2a8d;
+    transition: all 0.5s ease;
+}
+
+.container1 ul li:hover.google {
+    border: red;
+    box-shadow: 0 0 20px red;
+    transition: all 0.5s ease;
+}    
+
+.container1 ul li:hover.fa-google {
+    border: red;
+    box-shadow: 0 0 20px red;
+    transition: all 0.5s ease;
+}    
+
+.container1 ul li:hover.github {
+    border: yellow;
+    box-shadow: 0 0 20px yellow;
+    transition: all 0.5s ease;
+}
+
+.container1 ul li:hover.fa-github {
+    border: yellow;
+    box-shadow: 0 0 20px yellow;
+    transition: all 0.5s ease;
+}
+
+.container1 ul li:hover.whatsapp {
+    border: green;
+    box-shadow: 0 0 20px green;
+    transition: all 0.5s ease;
+}
+
+.container1 ul li:hover.fa-whatsapp {
+    border: green;
+    box-shadow: 0 0 20px green;
+    transition: all 0.5s ease;
+}
+
+.container1 ul li{
+    margin-top: 30px;
 }
 
 #redes-sociales h3{
     font-size: 9vw;
+}
+
+
+footer .container{
+    justify-content: flex-end;
 }
 
 footer{
@@ -239,6 +314,10 @@ footer .container{
         font-size: 1.1em;
     }
 
+    img{
+        height: 70px;
+    }
+
     #Datos-personales .container{
         display: flex;
         justify-content: space-evenly;
@@ -252,6 +331,11 @@ footer .container{
         padding-left: 30px;
         flex-direction: column;
         justify-content: center;
+    }
+
+    #Datos-personales ul li{
+        text-align: initial;
+        padding: 10px;
     }
 
     #Datos-personales h2{
@@ -303,7 +387,7 @@ footer .container{
             rgba(0,0,0,0.5)
             
         )
-        ,url("media/hero.jpg");
+        ,url("media/frontend.jpg");
     }
     
     .carta:nth-child(2){
@@ -313,7 +397,7 @@ footer .container{
             rgba(0,0,0,0.5)
             
         )
-        ,url("media/hero2.jpg");
+        ,url("media/bases.jpg");
     }
     
     .carta:nth-child(3){
@@ -323,7 +407,7 @@ footer .container{
             rgba(0,0,0,0.5)
             
         )
-        ,url("media/hero3.jpg");
+        ,url("media/infraestructura.jpg");
     }
 
     #caracteristicas{
@@ -347,15 +431,103 @@ footer .container{
         font-size: 5em;
     }
 
-    #redes-sociales button{
-        font-size: 2em;
+    #redes-sociales .container{
+        
+        top: 50%;
+        left: 100px;
+        transform: translate(-50% -50%);
+        width: 550px;
+    }
+
+    .container1 ul{
+        list-style: none;
+    }
+
+    .container1 ul li{
+        width: 75px;
+        height: 75px;
+        line-height: 75px;
+        margin: 0 10px;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 50%;
+        border: 5px solid blueviolet;
+        float: left;
+        transition:all 0.5s ease;
+
+    }
+
+    .container1 ul li .fa{
+        color: #d8e2dc;
+        margin-top: 10px;
+        transition: all 0.5s ease;
+    }
+
+    .container1 ul li:hover.facebook {
+        border: blue;
+        box-shadow: 0 0 20px blue;
+        transition: all 0.5s ease;
+    }
+
+    .container1 ul li:hover.fa-facebook {
+        color: blue;
+        text-shadow: 0 0 20px blue;
+        transition: all 0.5s ease;
+    }
+
+    .container1 ul li:hover.linkedin {
+        border: #bc2a8d;
+        box-shadow: 0 0 20px #bc2a8d;
+        transition: all 0.5s ease;
+    }
+
+    .container1 ul li:hover.fa-linkedin {
+        border: #bc2a8d;
+        box-shadow: 0 0 20px #bc2a8d;
+        transition: all 0.5s ease;
+    }
+
+    .container1 ul li:hover.google {
+        border: red;
+        box-shadow: 0 0 20px red;
+        transition: all 0.5s ease;
+    }    
+
+    .container1 ul li:hover.fa-google {
+        border: red;
+        box-shadow: 0 0 20px red;
+        transition: all 0.5s ease;
+    }    
+
+    .container1 ul li:hover.github {
+        border: yellow;
+        box-shadow: 0 0 20px yellow;
+        transition: all 0.5s ease;
+    }
+
+    .container1 ul li:hover.fa-github {
+        border: yellow;
+        box-shadow: 0 0 20px yellow;
+        transition: all 0.5s ease;
+    }
+
+    .container1 ul li:hover.whatsapp {
+        border: green;
+        box-shadow: 0 0 20px green;
+        transition: all 0.5s ease;
+    }
+
+    .container1 ul li:hover.fa-whatsapp {
+        border: green;
+        box-shadow: 0 0 20px green;
+        transition: all 0.5s ease;
     }
 
     footer .container{
         justify-content: flex-end;
     }
+}
 
-}  
 
     @media (min-width: 1200px) {
         #caracteristicas{
